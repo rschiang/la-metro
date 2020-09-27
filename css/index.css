@@ -1,0 +1,115 @@
+body {
+    background: #757779;
+    color: #fff;
+    font-family: Overpass, Bahnschrift, system-ui, sans-serif;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.33333;
+}
+
+h1, h2, h3, b, strong {
+    font-weight: 800;
+}
+
+a {
+    color: #fff;
+    transition: color .15s ease;
+}
+
+a:hover, a:active {
+    color: #ddd;
+}
+
+dl {
+    background: #fff;
+    color: #231f20;
+    border: 1px #231f20 solid;
+    border-radius: 1px;
+    margin: 1.33em -2em;
+}
+
+dl a {
+    color: #231f20;
+}
+
+dl a:hover, dl a:active {
+    color: #999b9e;
+}
+
+dt {
+    margin: .67em 2em 0;
+}
+
+dt:first-child {
+    background: #231f20;
+    color: #fff;
+    margin: 0 0 1.33em;
+    padding: .67em 2em .33em;
+    line-height: 2;
+    font-weight: 800;
+}
+
+dd {
+    margin: 0 2em .67em 3.25em;
+}
+
+dd:last-child {
+    margin-bottom: 1.33em;
+}
+
+.row {
+    margin: 1.33em 2rem;
+}
+
+.icon:before {
+    content: '';
+    display: inline-block;
+    vertical-align: text-top;
+    width: 0.85em;
+    height: 0.85em;
+    margin-right: .4em;
+    border-radius: 50%;
+    background: #999b9e;
+}
+
+.blue.icon:before { background: #254e9b; }
+.red.icon:before { background: #df5e3c; }
+.green.icon:before { background: #5da057; }
+.purple.icon:before { background: #85718c; }
+.gold.icon:before { background: #d7c842; }
+.silver.icon:before { background: #a7a9ac; }
+.orange.icon:before { background: #e88c3d; }
+.aqua.icon:before { background: #74b0d8; }
+.turquoise.icon:before { background: #4aa698; }
+.maroon.icon:before { background: #821a52; }
+.pink.icon:before { background: #da366f; }
+
+#intro {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#map {
+    width: 100%;
+    min-height: 100%;
+}
+
+footer {
+    font-size: .875rem;
+}
+
+footer p {
+    margin: .167em 0;
+}
+
+@media screen and (min-width: 45em) {
+    .row {
+        margin: 2rem auto;
+        max-width: 40rem;
+    }
+
+    #intro {
+        margin-top: 2.67em;
+        margin-bottom: 2.67em;
+    }
+}
